@@ -1,0 +1,13 @@
+package com.binnaLibrary.BinnaLib;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BinnaLibApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BinnaLibApplication.class, args);
+	}
+
+}
