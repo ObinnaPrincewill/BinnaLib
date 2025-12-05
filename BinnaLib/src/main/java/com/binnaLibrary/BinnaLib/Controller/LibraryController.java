@@ -26,15 +26,15 @@ public class LibraryController {
     public List<books> allBooks(){
         return service.allBooks();
     }
-    @GetMapping("/books/{genre}")
+    @GetMapping("/booksbyGenre/{genre}")
     public List<books> getByGenre(@PathVariable String genre){
         return service.getByGenre(genre);
     }
-    @GetMapping("/books/{author}")
+    @GetMapping("/booksbySAuthor/{author}")
     public List<books> getByAuthor(@PathVariable String author){
         return service.getByAuthor(author);
     }
-    @GetMapping("/books/{title}")
+    @GetMapping("/booksbyTitle/{title}")
     public List<books> getByTitle(@PathVariable String title){
         return service.getByTitle(title);
     }
